@@ -37,6 +37,7 @@ kind: Task
 metadata:
   name: nose
 spec:
+  description: Running unit tests with nose
   workspaces:
     - name: source
   params:
